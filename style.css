@@ -15,7 +15,6 @@ h1 {
     background-color: #464b55;
     padding: 10px;
     display: flex;
-    align-items: center;
 }
 
 .logo {
@@ -25,20 +24,14 @@ h1 {
 
 .container {
     margin-top: 30px;
-    padding: 0 60px;
+    padding: 0 60px 0 60px;
 }
 
 .post {
     background-color: #282c34;
     margin-bottom: 15px;
-    padding: 5px 20px;
+    padding: 5px 20px 5px 20px;
     border-radius: 12px;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.post:hover {
-    transform: scale(1.02);
-    background-color: #303540;
 }
 
 .post h4 {
@@ -47,11 +40,4 @@ h1 {
 
 .post span {
     color: #61afef;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .container {
-        padding: 0 20px;
-    }
 }
